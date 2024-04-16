@@ -1,6 +1,7 @@
 # Tugas-3-2108107010030
 
-Nama : Tyara Raynasari 
+Nama : Tyara Raynasari
+
 NPM : 2108107010030
 ## Deskripsi Data
 
@@ -41,13 +42,17 @@ Berikut merupakan beberapa kolom yang terdapat dalam dataset Laptop Price Predic
 - Weight = merupakan berat laptop mulai dari 2 kg sampai 5 kg.
 - Price = merupakan label dari data yaitu harga laptop sesuai dengan fitur-fitur lainnya.
 
-Output Poin2.ipynb ini untuk membandingkan nilai akurasi antara model dengan SVR dan model dengan ANN.
+Output **Poin2.ipynb** ini untuk membandingkan nilai akurasi antara model dengan SVR dan model dengan ANN.
 
 Berdasarkan hasil output :
-R-squared dari model SVR: 0.9682939700117195
+
+R-squared dari model SVR: **0.9682939700117195**
+
 Model SVR mampu menjelaskan sekitar 96.83% variabilitas dalam data yang diamati. Dengan nilai R^2 yang tinggi seperti ini, dapat diinterpretasikan bahwa model SVR memberikan perkiraan yang sangat baik terhadap variabel target.
 
-R-squared dari model ANN: 0.9831003930913376
+
+R-squared dari model ANN: **0.9831003930913376**
+
 Ini menunjukkan bahwa model Artificial Neural Network (ANN) memiliki kemampuan yang lebih baik dalam menjelaskan data, dengan R^2 sebesar 98.31%. Hal ini menunjukkan bahwa ANN mampu menghasilkan prediksi yang lebih akurat dibandingkan dengan model SVR dalam kasus yang sama.
 
 Secara keseluruhan, kedua model tersebut memiliki kinerja yang baik, tetapi model ANN sedikit lebih baik dalam menjelaskan variabilitas data. Namun, selain R^2, selalu penting untuk mempertimbangkan metrik evaluasi lainnya dan membandingkan keduanya untuk mendapatkan pemahaman yang lebih lengkap tentang kinerja model.
@@ -58,17 +63,14 @@ Secara keseluruhan, kedua model tersebut memiliki kinerja yang baik, tetapi mode
 ```bash
 python3 -m venv nama_env
 ```
-
 2. Aktifkan virtual environment pada terminal dalam lingkungan kode. Jalankan :
 ```bash
 source nama_env/bin/activate
 ```
-
 3. Install semua library yang ada dalam file requirements.txt. Jalankan : 
 ```bash
 pip install -r requirements.txt
 ```
-
 4. Jalankan semua kode Poin1.ipynb dan Poin2.ipynb dengan memilih kernel terlebih dahulu. Pilih nama_env yang telah dibuat sebelumnya. 
 
 5. Lihat output dan analisis hasilnya. 
